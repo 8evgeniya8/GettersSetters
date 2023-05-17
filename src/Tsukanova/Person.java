@@ -109,11 +109,11 @@ public class Person {
     public void printAccountInfo() {
         System.out.println("Який зараз рік: " + this.yearNow);
         System.out.println("Призвище: " + this.lastName);
-        System.out.println("Ім'я: " + name);
+        System.out.println("Ім'я: " + this.name);
         System.out.println("Число народження: " + this.dateBirth);
         System.out.println("Місяць народження: " + this.monthBirth);
         System.out.println("Рік народження: " + this.yearBirth);
-        System.out.println("Вік: " + age);
+        System.out.println("Вік: " + this.age);
         System.out.println("Мобільний: " + this.phone);
         System.out.println("email: " + this.email);
         System.out.println("Вага: " + this.vaga);
