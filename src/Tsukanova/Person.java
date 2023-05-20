@@ -25,12 +25,12 @@ public class Person {
 //    У main-класі створити 3-5 користувачів та роздрукувати дані кожного через
 //    виклик методу printAccountInfo(); для двох користувачів змінити кілька полів
 //    та роздрукувати нові дані повторно
-    private String name;
-    private int dateBirth;
-    private int monthBirth;
-    private int yearBirth;
-    private String email;
-    private String phone;
+    private final String name;
+    private final int dateBirth;
+    private final int monthBirth;
+    private final int yearBirth;
+    private final String email;
+    private final String phone;
     private String lastName;
     private int vaga;
     private int tusk;
